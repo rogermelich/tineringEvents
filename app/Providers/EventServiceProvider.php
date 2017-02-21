@@ -16,8 +16,8 @@ class EventServiceProvider extends ServiceProvider
         'App\Events\SomeEvent' => [
             'App\Listeners\EventListener',
         ],
-        'Illuminate\Auth\Events\Register' => [
-            'App\Listeners\WelcomeEmailListener',
+        'App\Events\EmailSend' => [
+            'App\Listeners\EmailSend',
         ],
     ];
 
