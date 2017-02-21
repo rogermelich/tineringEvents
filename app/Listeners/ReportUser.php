@@ -6,7 +6,7 @@ use App\Events\EmailSend;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class EmailSend
+class ReportUser
 {
     /**
      * Create the event listener.
@@ -26,6 +26,6 @@ class EmailSend
      */
     public function handle(EmailSend $event)
     {
-        //
+        dump('Email Ok');
     }
 }
